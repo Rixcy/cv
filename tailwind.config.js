@@ -26,12 +26,11 @@ module.exports = {
             },
             fontFamily: {
                 sans: ['Inter var', ...defaultTheme.fontFamily.sans],
-                lucky: ['Luckiest Guy', ...defaultTheme.fontFamily.sans],
             },
         },
     },
     variants: {
         extend: {},
     },
-    plugins: [],
+    plugins: [require('@tailwindcss/forms')],
 }

@@ -1,3 +1,5 @@
+import { GetInTouch } from './GetInTouch'
+
 export const Timeline: React.VFC = (): React.ReactElement => {
     const externalProps = {
         target: '_blank',
@@ -51,9 +53,14 @@ export const Timeline: React.VFC = (): React.ReactElement => {
                         <span className="text-nord9">Skills</span> - Software Architecture, Unit
                         Testing, Integration Testing, Serverless Deployment, Progressive Web Apps
                     </p>
+                    <p className="text-nord3 mb-1 text-sm">
+                        <span className="text-nord9">Dev Environment</span> - I develop mainly on
+                        the command line using a mixture of Vim, Tmux, FZF and Lazygit amongst many
+                        other powerful tools.
+                    </p>
                 </div>
                 <div className="pb-6 xl:pb-8">
-                    <h3 className="tracking-widest font-bold mb-1">Projects</h3>
+                    <h3 className="tracking-widest font-bold mb-1">PROJECTS</h3>
                     <p className="text-nord3 mb-1 text-sm">
                         <a href="https://github.com/Rixcy/cv" {...externalProps}>
                             <span className="text-nord9 underline">CV</span>
@@ -92,6 +99,7 @@ export const Timeline: React.VFC = (): React.ReactElement => {
                         - A homepage clone of AirBnB to practice using TailwindCSS.
                     </p>
                 </div>
+                <GetInTouch />
             </div>
         </div>
     )
