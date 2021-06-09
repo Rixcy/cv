@@ -77,8 +77,8 @@ export const Timeline: React.VFC = (): React.ReactElement => {
                         <a href="https://github.com/Rixcy/nextjs-starter" {...externalProps}>
                             <span className="text-nord9 underline">NextJS Starter</span>
                         </a>{' '}
-                        - Starter project for NextJS including Storybook, Lighthouse Audits,
-                        TailwindCSS and more.
+                        - Starter project for NextJS, TailwindCSS, Commitlint, Prettier, ESLint and
+                        more.
                     </p>
                     <p className="text-nord3 mb-1 text-sm">
                         <a href="https://github.com/Rixcy/vite-react-starter" {...externalProps}>
