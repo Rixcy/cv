@@ -5,7 +5,7 @@ export const Header = () => {
                 Rick Booth
             </h1>
             <h2 className="text-nord1 text-sm md:text-base tracking-wider pl-1 pb-6">
-                Senior Frontend Engineer
+                Senior Frontend Engineer @ Progression
             </h2>
         </>
     )
