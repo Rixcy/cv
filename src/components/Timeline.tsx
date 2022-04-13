@@ -13,13 +13,20 @@ export const Timeline: React.VFC = (): React.ReactElement => {
                 <div className="pb-6 xl:pb-8">
                     <h3 className="tracking-widest font-bold mb-1">INTRODUCTION</h3>
                     <p className="text-nord3 text-sm">
-                        I'm a senior software engineer based in the UK. I have a passion for building software that is both user friendly and efficient. I've been both a frontend and backend developer but I've more recently specialised in frontend development specifically using React and TypeScript. I've professionally built websites varying from e-commerce storefronts and admin panels to pension advice landing pages to full fledged apps for career progression frameworks.
+                        I&apos;m a senior software engineer based in the UK. I have a passion for
+                        building software that is both user friendly and efficient. I&apos;ve been
+                        both a frontend and backend developer but I&apos;ve more recently
+                        specialised in frontend development specifically using React and TypeScript.
+                        I&apos;ve professionally built websites varying from e-commerce storefronts
+                        and admin panels to pension advice landing pages to full fledged apps for
+                        career progression frameworks.
                     </p>
                 </div>
                 <div className="pb-6 xl:pb-8">
                     <h3 className="tracking-widest font-bold mb-1">JOB HISTORY</h3>
                     <p className="text-nord3 mb-1 text-sm">
-                        <span className="text-nord9">10 Months @ Progression</span> - Senior Frontend Developer
+                        <span className="text-nord9">10 Months @ Progression</span> - Senior
+                        Frontend Developer
                     </p>
                     <p className="text-nord3 mb-1 text-sm">
                         <span className="text-nord9">2 Years @ 9xb</span> - Tech Lead / Head of
@@ -39,8 +46,8 @@ export const Timeline: React.VFC = (): React.ReactElement => {
                 <div className="pb-6 xl:pb-8">
                     <h3 className="tracking-widest font-bold mb-1">TOOLS AND TECHNOLOGIES</h3>
                     <p className="text-nord3 mb-1 text-sm">
-                        <span className="text-nord9">Frameworks</span> - React, Remix, NextJS, Blitz,
-                        Gatsby, React Testing Library, Jest, Cypress
+                        <span className="text-nord9">Frameworks</span> - React, Remix, NextJS,
+                        Blitz, Gatsby, React Testing Library, Jest, Cypress
                     </p>
                     <p className="text-nord3 mb-1 text-sm">
                         <span className="text-nord9">Languages</span> - JavaScript, TypeScript,
@@ -56,7 +63,8 @@ export const Timeline: React.VFC = (): React.ReactElement => {
                     </p>
                     <p className="text-nord3 mb-1 text-sm">
                         <span className="text-nord9">Dev Environment</span> - I develop mainly on
-                        the command line using a mixture of Vim, Tmux, FZF and Lazygit and other tools.
+                        the command line using a mixture of Vim, Tmux, FZF and Lazygit and other
+                        tools.
                     </p>
                 </div>
                 <div className="pb-6 xl:pb-8">
